@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v5.1.8 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
@@ -3978,11 +3978,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
-  width: 30px;
-  height: 30px;
 }
-
-
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -9659,6 +9655,13 @@ hr.light {
   }
 }
 
+#new-logo {
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
@@ -9668,7 +9671,6 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
-
 
 header.masthead h1 {
   font-size: 2.25rem;
@@ -9716,7 +9718,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: black;
+  background: rgba(244, 98, 58, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
